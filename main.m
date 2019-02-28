@@ -1,7 +1,6 @@
 clc;clear all; close all
 x = 1:20';
 y = rand(size(x,2),1);
-n=1;
 DelayTime=0.2;
 h = figure; hold on; axis tight manual % this ensures that getframe() returns a consistent size
 
